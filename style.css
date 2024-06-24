@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    
+
+}
+
+.section1 {
+    background: url(./images/mainpic.jpg);
+    background-size: cover;
+    
+}
+
+.nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between ;
+    line-height: 3rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(43, 41, 41);
+    
+}
+
+.nav h1{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    color: aliceblue;
+}
+
+.nav-options {
+    list-style: none;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.options {
+    display: inline-block;
+    padding: 1rem;
+    color: aliceblue;
+
+}
+
+.name {
+    padding: 1rem;
+    color: white;
+}
+
+.main-content {
+    text-align: center;
+    padding: 12rem;
+    font-size: 3rem;
+    line-height: 7rem;
+    color: aliceblue;t
+}
+
+
+.main-content h1 {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.btn {
+    font: black;
+    background-color: rgb(223, 190, 122);
+    border-radius: 25px;
+    width: 13rem;
+    height: fit-content;
+    height: 5rem;
+    border: none;
+    color: black;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: justify;
+    background-color: white;
+    color: black;
+    padding: 4rem;
+    
+    margin-bottom: 1rem;
+}
+
+.right-intro {
+    text-align: justify;
+    font-weight: 100;
+    font-size: 1rem;
+    font-style:oblique;
+}
+
+.left-intro {
+    font-size: 2rem;
+}
+
+.gallery {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: white;
+    
+}
+
+.gallery img {
+    height: 600px;
+    width: 400px;
+}
+
+.footer {
+
+        text-align: center;
+        padding: 3rem;
+        font-size: 3rem;
+        line-height: 4rem;
+        color: aliceblue;
+      background-color:  rgb(43, 41, 41);
+}
+
+.footer p {
+    font-size: 1rem;
+}
+
